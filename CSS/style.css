@@ -1,0 +1,130 @@
+body {
+  font-family: "Ultra", serif;
+  height: 100vh;
+  min-height: 41.15rem;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  min-height: 41.15rem;
+}
+
+em {
+  font-style: italic;
+}
+
+h1 {
+  font-family: "Ewert", cursive;
+}
+
+u {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-thickness: .2rem;
+}
+
+.container {
+  background: url("../images/wood.jpg") local no-repeat center center/cover;
+  color: #291200;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.poster {
+  background: url("../images/parchment.jpg") no-repeat center/cover;
+  box-shadow: .125rem .25rem .5rem .1875rem #000;
+  box-sizing: border-box;
+  height: 38.75rem;
+  margin: auto;
+  padding-top: 1.73rem;
+  text-align: center;
+  width: 30rem;
+}
+
+.title {
+  font-size: 3.6666694383206rem;
+}
+
+.subtitle {
+  font-size: 1.34rem;
+  margin: 1rem auto .48rem auto;
+}
+
+.mugshot {
+  background: url("../images/mugshot.png") no-repeat center/cover;
+  border: .125rem solid #291200;
+  display: inline-block;
+  filter: sepia(60%);
+  height: 19.1rem;
+  padding: .625rem;
+  width: 17.5rem;
+}
+
+.name {
+  box-sizing: border-box;
+  font-size: 2rem;
+  margin: .7rem;
+  padding-top: .05rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin: .7rem;
+}
+
+.reward {
+  font-size: 1.5rem;
+  margin: .7rem auto .5rem auto;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+
+@media only screen and (min-height: 41.375rem) and (max-height: 41.375rem) and (min-width: 41.375rem) and (max-width: 41.375rem) {
+  .container {
+    background-position: -9.64rem -2.19rem;
+    background-repeat: no-repeat;
+    background-size: 80rem 53.3125rem;
+  }
+
+  .poster {
+    margin: 1.45rem auto auto 5.79rem;
+  }
+}
+
+@media only screen and (max-width: 30rem) {
+  .poster {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 26rem) {
+  .poster {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 20rem) {
+  body {
+    height: 47rem;
+    min-height: 47rem;
+    min-width: 20rem;
+    width: 20rem;
+  }
+
+  main {
+    min-height: 100%;
+  }
+
+  .poster {
+    width: 19.5rem;
+  }
+}
